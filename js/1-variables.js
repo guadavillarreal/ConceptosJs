@@ -1,11 +1,11 @@
-//para los comentarios
+//para los comentarios de una unica linea
 /*Esto es un comentario
-de carias lineas
-*/ 
-//declarar una variable (var - let - const)
-/*let: puedo canviar el valor  
-const: no permite canviar el valor 
-= operador de asignacion, */
+de varias lineas*/
+
+/*declarar una variable (var - let - const) var actualmente no se la utiliza
+- let: puedo cambiar el valor  
+- const: no permite canviar el valor 
+        = operador de asignacion, */
 let anioActual = 2023
 const url = "https://universe.rollingcodeschool.com/live/videos/64b5c70978c18f053461e4b5"
 
