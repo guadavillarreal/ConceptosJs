@@ -35,3 +35,10 @@ alert('Esto es una prueba de alerta');
 let color = prompt('Ingrese un color');
 console.log(color); //para verificar que el us ingrese loq le pido
 
+//solicitar al us un nemro, y al nuemro indicado por elus multiplicarle 15
+let numeroSeleccionado=prompt("Ingrese una numero de 1 a 100");
+console.log(numeroSeleccionado);
+console.log(numeroSeleccionado + 15);
+
+//parseInt('10') devuelve 10
+//parseFloat ('10.5')
