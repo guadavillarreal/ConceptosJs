@@ -18,14 +18,18 @@ console.log(url);
 console.log("Año: " + (anioActual + 2));
 
 //modificar el contenido de una variable
-anioActual = 2024;
+console.log(anioActual);//hasta este renglon mantiene el valor anterior
+anioActual = 2024;//apartir de esta linea lo actualiza al valor que lo modifique
 console.log(anioActual);
 
 //url='otro valor'; no se puede hacer porq declare como variable constante
 console.log(url);
 
+//para que js escriba algo que yo desees lo hago atravez de document.write
 //para que js identifique las etiquetas de HTML
+//document.write para que escriba por pantalla
 document.write("<h1>Esto es un mensaje por pantalla</h1>");
+//concatenamos un txt mas una variable
 document.write("año: " + anioActual + "<br>");
 document.write("Año: " + anioActual);
 
@@ -36,10 +40,14 @@ alert("Esto es una prueba de alerta");
 let color = prompt("Ingrese un color");
 console.log(color); //para verificar que el us ingrese loq le pido
 
-//solicitar al us un nemro, y al nuemro indicado por elus multiplicarle 15
-let numeroSeleccionado = prompt("Ingrese una numero de 1 a 100");
+//inicializo una variable y con el promt le indico al us que tiene que ingresar
+// con parseInt(''); dentro del pront ya cambia automaticamente lo que ingresa el us por un numero entero- transforma el string a num entero
+let numeroSeleccionado = parseInt(prompt("Ingrese una número de 1 a 100"));
+//muestro el numero seleccionado por el us por consola 
 console.log(numeroSeleccionado);
+//solicitar al us un nemro, y al nuemro indicado por el us multiplicarle 15
 console.log(numeroSeleccionado + 15);
-
-//parseInt('10') devuelve 10
-//parseFloat ('10.5')
+/*en este caso la consola interpreta por string lo ingresado por el
+us, porlo que se lo tiene que transformar a un numero*/
+// con parseInt('10') devuelve 10 - transforma el string a num entero
+//asi tambien con- parseFloat ('10.5')
